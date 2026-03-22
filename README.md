@@ -3,6 +3,31 @@
 ## 📌 Project Overview
 This project is a custom end-to-end ETL (Extract, Transform, Load) pipeline designed to collect, clean, and semantically analyze Data Analyst job postings in Northern Italy. The primary technical objective is to accurately parse complex, unstructured HR texts to extract specific language requirements (CEFR levels) and their criticality (Mandatory vs. Optional).
 
+## 📊 Key Findings & Strategic Insights
+
+### ❓ The Core Question
+How important is the Italian language for employment as a Data Analyst in Northern Italy?
+
+### 💡 Initial Hypothesis
+> **The Language Trade-off:** If good English is required, you can compensate with a lower level of Italian.
+
+### 📈 What the Data Says
+The market does not support the trade-off hypothesis. It is strictly divided:
+
+![Market Structure Heatmap](heatmap_market_structure.png)
+![Language Status Stacked Bar Chart](dual_language_status.png)
+
+* **52.34% (134 vacancies):** English is required; Italian is not specified or not needed.
+* **20.31% (52 vacancies):** High proficiency (B2 or C1) is required in **both** languages.
+* **18.75% (48 vacancies):** Italian is required; English is not specified or not needed.
+
+### 🎯 Actionable Conclusion
+What should a candidate do to get a job in Northern Italy as a Data Analyst?
+
+1. **Target the Majority:** You can apply to more than **52% of vacancies** with only entry-level Italian.
+2. **Reevaluate ROI:** Studying Italian to a fluent level might not provide a high competitive advantage for these specific roles.
+3. **Focus on Hard Skills:** Junior Data Analysts should prioritize improving their **technical and analytical skills** rather than mastering the Italian language.
+
 ## 🛠 Tech Stack
 * **Data Extraction:** Python, Selenium (Remote Debugging)
 * **Database:** SQLite3 (3NF Relational Architecture)
