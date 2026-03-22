@@ -1,0 +1,6 @@
+selenium==4.41.0
+undetected-chromedriver==3.5.5
+deep-translator==1.11.4
+langdetect==1.0.9
+pandas==3.0.1
+seaborn==0.13.2
